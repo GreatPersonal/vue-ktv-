@@ -1,0 +1,78 @@
+.recommend {
+  margin-top: 0.2rem;
+}
+
+.recommend .content {
+  width: 100%;
+  height: 100%;
+}
+
+.recommend .recommend_item {
+  width: 100%;
+  height: 3.2rem;
+  margin-bottom: 0.3rem;
+  background: green;
+  position: relative;
+}
+
+.recommend .recommend_item a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.recommend .recommend_itemL {
+  width: 3.2rem;
+  height: 0.55rem;
+  background: #00BAFF;
+  border-radius: 5px;
+  position: absolute;
+  left: 0.65rem;
+  top: 2.4rem;
+  font-size: 0.28rem;
+  color: #fff;
+  line-height: 0.55rem;
+  text-align: center;
+}
+
+.recommend .recommend_itemR {
+  width: 2.65rem;
+  height: 0.55rem;
+  background: #00A6F4;
+  border-radius: 5px;
+  position: absolute;
+  left: 3.65rem;
+  top: 2.25rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 0.24rem;
+  color: #fff;
+}
+
+.recommend .recommend_itemR .recommend_itemR_one {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recommend .recommend_itemR .recommend_itemR_one img {
+  width: 0.18rem;
+  height: 0.2rem;
+}
+
+.recommend .recommend_itemR .recommend_itemR_two {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recommend .recommend_itemR .recommend_itemR_two img {
+  width: 0.18rem;
+  height: 0.2rem;
+}

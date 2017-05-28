@@ -1,0 +1,255 @@
+$img-path: '/static/imgs/store/';
+.choised {
+  width: 100%;
+  background: #F2F0FC url($img-path +"choisedBac.png") no-repeat center -0.44rem/100% auto;
+  padding: 0 0.24rem;
+  box-sizing: border-box;
+}
+
+.head {
+  width: 100%;
+  height: 0.88rem;
+  font-size: 0.3rem;
+  color: #fff;
+  line-height: 0.44rem;
+  padding: 0.1rem 0;
+  position: relative;
+}
+
+.head .title {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head .title .room {
+  letter-spacing: 0;
+  margin: 0 0.1rem;
+}
+
+.head .title .word {
+  margin-right: 0.1rem;
+}
+
+.head .point {
+  width: 0.06rem;
+  height: 0.06rem;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.head .totalNum {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.head .return {
+  width: 0.4rem;
+  height: 0.4rem;
+  background: url($img-path +"return.png") no-repeat center/100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.content {
+  margin-top: 0.4rem;
+  padding: 0.5rem 0;
+  background: #fff;
+  box-shadow: 0 0.1rem 0.2rem #E7E5F0;
+  border-radius: 0.1rem;
+}
+
+.content .item {
+  width: 100%;
+  height: 2.7rem;
+  display: flex;
+  align-items: center;
+}
+
+//.content .item3 {
+//  background: none;
+//}
+
+.content .pic {
+  flex: 1
+}
+
+//.content .img1 {
+//  width: 2.17rem;
+//  height: 2.23rem;
+//}
+//
+//.content .img2 {
+//  width: 1.95rem;
+//  height: 1.59rem;
+//}
+//
+//.content .img3 {
+//  width: 1.87rem;
+//  height: 1.32rem;
+//}
+
+.content .dataBox {
+  height: 100%;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dataBox .name {
+  font-size: 0.3rem;
+  color: #FC3195;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.dataBox .name span {
+  letter-spacing: 0;
+}
+
+.dataBox .describe {
+  height: 0.42rem;
+  background: url($img-path +"borderBottom.png") no-repeat left bottom/3.9rem auto;
+  display: flex;
+  align-items: flex-start;
+}
+
+.describe .word {
+  font-size: 0.24rem;
+  color: #454D58;
+  font-weight: 100;
+  margin-right: 0.35rem;
+}
+
+.describe .v {
+  font-size: 0.28rem;
+  color: #A2A2A2;
+}
+
+.dataBox .operate {
+  height: 0.35rem;
+  margin-top: 0.3rem;
+  display: flex;
+}
+
+.operate .subtract {
+  width: 0.35rem;
+  height: 0.35rem;
+  background: url($img-path +"subtract.png") no-repeat center/100%;
+}
+
+.operate .num {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 0.8rem;
+  height: 100%;
+  border: 2px solid #D2D2D2;
+  border-radius: 0.18rem;
+  margin: 0 0.13rem;
+  font-size: 0.26rem;
+  color: #858585;
+}
+
+.operate .plus {
+  width: 0.35rem;
+  height: 0.35rem;
+  background: url($img-path +"plus.png") no-repeat center/100%;
+}
+
+.operate .price {
+  margin-left: 0.7rem;
+  display: flex;
+  align-items: flex-end;
+}
+
+.price .span {
+  font-size: 0.42rem;
+  line-height: 0.35rem;
+  color: #FE318E;
+  font-weight: bold;
+  letter-spacing: 0;
+}
+
+.price .rmb {
+  padding-top: 0.06rem;
+  font-size: 0.22rem;
+  line-height: 0.22rem;
+  font-weight: bold;
+  color: #FE318E;
+  letter-spacing: 0;
+  background: url($img-path +"rmbL.png") no-repeat center top/0.4rem 0.05rem;
+}
+
+.total {
+  width: 100%;
+  height: 0.48rem;
+  margin-top: 0.72rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.total .left {
+  height: 100%;
+  color: #D1D6E4;
+  font-size: 0.68rem;
+  font-weight: bold;
+  line-height: 0.48rem;
+}
+
+.total .division {
+  width: 1px;
+  height: 100%;
+  background: url($img-path +"division.png") no-repeat center/100% auto;
+  margin: 0 0.1rem;
+}
+
+.total .right {
+  height: 100%;
+  display: flex;
+}
+
+.right .word {
+  font-size: 0.22rem;
+  color: #FF318E;
+  line-height: 0.24rem;
+  letter-spacing: 0;
+  font-weight: bold;
+}
+
+.right .word .rmb {
+  font-size: 0.26rem;
+  color: #B8B8B8;
+}
+
+.right .word div {
+  letter-spacing: 0;
+}
+
+.right .num {
+  color: #FF318E;
+  font-size: 0.68rem;
+  font-weight: bold;
+  line-height: 0.48rem;
+}
+
+.submit {
+  display: block;
+  width: 5.9rem;
+  height: 1rem;
+  margin: 0.5rem auto;
+  background: url($img-path +"button02.png") no-repeat center/100%;
+  font-size: 0.3rem;
+  color: #fff;
+  line-height: 1rem;
+}

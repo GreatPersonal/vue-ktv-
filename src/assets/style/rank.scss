@@ -1,0 +1,133 @@
+$img-path: '/assets/images/';
+.quarter-rank {
+  width: 100%;
+  height: auto;
+  //padding: 0 0.24rem;
+  box-sizing: border-box;
+  //background: url($img-path +"background-1.png") no-repeat center/cover;
+  .rank-con {
+    width: 100%;
+    height: auto;
+    li {
+      width: 100%;
+      height: 1.56rem;
+      display: flex;
+      border-bottom: 1px dashed rgba(183, 183, 183, 0.5);
+      .img-wrap {
+        width: 1.65rem;
+        height: 1.66rem;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .wrap {
+          position: absolute;
+          width: .97rem;
+          height: .97rem;
+          background: #fe3191;
+          left: 0.35rem;
+          top: 0.35rem;
+          border-radius: 10px;
+          transform: rotate(15deg);
+        }
+      }
+      .img-bg {
+        background: #fff;
+        width: 1.07rem;
+        border-radius: 10px;
+        height: 1.07rem;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        overflow: hidden;
+        box-sizing: border-box;
+        border: 2px solid #fff;
+      }
+      .singer-bg {
+        z-index: 1 !important;
+        border-radius: 10px;
+        height: 2rem;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+      }
+    }
+  }
+  .song-con {
+    display: flex;
+    flex-direction: column;
+    .song-name {
+      flex: 1;
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-start;
+      font-size: 0.24rem;
+    }
+    .song-time {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      font-size: 0.18rem;
+      color: #c7c7c7;
+    }
+  }
+}
+
+
+.swiper-container{
+  width:100%;
+  overflow: auto;
+  height:3.2rem;    position: relative;
+  margin-bottom: .22rem;
+}
+
+.banner{
+  width:100%;
+  height:3.8rem;
+  display: flex;
+  position: relative;
+  z-index: 1;
+  margin-top:0.25rem;
+  align-items: center;
+  .swiper{
+    width:3.98rem;
+    height:2.65rem;
+    border-radius: .15rem;
+    border:2px solid #fff;
+    transition: all ease .5s;
+    background:no-repeat center/cover;
+    box-shadow: 0 0 5px rgba(254,49,142,1);
+
+  }
+  .swiper:nth-child(1){
+    background-color:#fff;
+    background-image: url("/static/img/king1.png");
+  }
+  .swiper:nth-child(2){
+    background-color:#007aff;
+    background-image: url("/static/img/king2.png");
+  }
+  .swiper:nth-child(3){
+    background-color:red;
+    background-image: url("/static/img/king3.png");
+  }
+  .swiper.swiper-slide-prev{
+    z-index: 10;
+    transform: translate(92%, 0%);
+  }
+  .swiper-slide-next{
+    transform: translate(-92%, 0%);
+    z-index: 9;
+  }
+  .swiper-slide-active{
+    width:5.04rem;
+    z-index: 11;
+    height:3.2rem;
+  }
+  .swiper-wrapper{
+    display: flex;
+    align-items: center;
+  }
+}
+
+

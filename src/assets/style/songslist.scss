@@ -1,0 +1,92 @@
+
+.songslist {
+  width: 100%;
+  background: url("../images/lxj_success_bg_02.png") center/cover no-repeat;
+  padding: 0 0.24rem;
+  box-sizing: border-box;
+}
+
+.songslist .music_item1 {
+  width: 100%;
+  height: 0.88rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.songslist .music_item1_back {
+  font-size: 0.28rem;
+}
+
+.songslist .music_item1_back img {
+  width: 0.4rem;
+  height: 0.4rem;
+}
+
+.songslist .music_item1_singer {
+  font-size: 0.36rem;
+  color: #fff;
+}
+
+.songslist .music_item1_backs {
+  //width: 1.2rem;
+  //height: 0.4rem;
+  font-size: 0.24rem;
+  color: #fff;
+  //display: flex;
+  //flex-flow: row nowrap;
+}
+
+.songslist .rank_songs {
+  margin-top: 0.8rem;
+}
+
+.songslist .rank_songs .rank_song {
+  width: 100%;
+  height: 1.6rem;
+  border-bottom: 1px dashed #58606d;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.songslist .rank_songs .rank_song p {
+  flex: 1;
+  height: 1.16rem;
+  background: url("../images/lxj-rank-moban_03.png") center/contain no-repeat;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.songslist .rank_songs .rank_song img {
+  width: 0.9rem;
+  height: 0.9rem;
+}
+
+.songslist .rank_songs .rank_song .rank_song_item {
+  flex: 5;
+  height: 1.15rem;
+  padding: 0 0.3rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.songslist .rank_songs .rank_song .rank_song_item h5 {
+  font-size: 0.26rem;
+  color: #58606d;
+}
+
+.songslist .rank_songs .rank_song .rank_song_item h6 {
+  font-size: 0.24rem;
+  color: #c6c6c6;
+}
+
+.songslist .rank_songs .rank_song .img {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+

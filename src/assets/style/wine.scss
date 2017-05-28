@@ -1,0 +1,106 @@
+$img-path: '/static/imgs/store/';
+.wine {
+  margin-top: 0.8rem;
+  padding-bottom: 3.2rem;
+  box-shadow: 0 -0.1rem 0.2rem #FFF7FA inset;
+  background: #fff;
+
+}
+
+.wine .item {
+  width: 100%;
+  height: 2.7rem;
+  background: url($img-path +"borderBottom.png") no-repeat center bottom/100% 0.04rem;
+  display: flex;
+  align-items: center;
+}
+
+.wine .item3 {
+  background: none;
+}
+
+.wine .pic {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 2.35rem;
+    height: 1.72rem;
+  }
+}
+
+.wine .dataBox {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dataBox .name {
+  flex: 1;
+  font-size: 0.24rem;
+  color: #575861;
+  display: flex;
+  align-items: flex-end;
+}
+
+.dataBox .name span {
+  letter-spacing: 0;
+}
+
+.dataBox .name div {
+  width: 0.16rem;
+  height: 0.22rem;
+  background: url($img-path +"star.png") no-repeat center/100%;
+  margin-left: 0.1rem;
+}
+
+.dataBox .price {
+  flex: 1;
+  font-size: 0.26rem;
+  color: #FF326C;
+  display: flex;
+  align-items: center;
+}
+
+.price .symble {
+  font-size: 0.2rem;
+  letter-spacing: 0;
+}
+
+.price .num {
+  font-weight: bold;
+  letter-spacing: 0;
+  font-size: 0.3rem;
+}
+
+.dataBox .operate {
+  flex: 1;
+  height: 0.35rem;
+  display: flex;
+}
+
+.operate .subtract {
+  width: 0.35rem;
+  height: 0.35rem;
+  background: url($img-path +"subtract.png") no-repeat center/100%;
+}
+
+.operate .num {
+  width: 0.8rem;
+  height: 0.35rem;
+  line-height: 0.38rem;
+  border: 2px solid #D2D2D2;
+  border-radius: 0.18rem;
+  margin: 0 0.13rem;
+  font-size: 0.26rem;
+  color: #858585;
+}
+
+.operate .plus {
+  width: 0.35rem;
+  height: 0.35rem;
+  background: url($img-path +"plus.png") no-repeat center/100%;
+}
